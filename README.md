@@ -1,4 +1,6 @@
-# Birthday-Ojo<!DOCTYPE html>
+[index.html](https://github.com/user-attachments/files/32919211/index.html)
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -20,8 +22,11 @@
 <footer><div class="big">💗</div><h2>Happy Birthday, Ojo!</h2><p style="margin:12px 0 22px">You reached the end... but there's one more thing.</p><button class="btn" onclick="finale()">🎆 ONE LAST SURPRISE</button></footer>
 <div class="modal" id="modal"><div class="modalbox"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
 <script>
-const photos=[
-'03db2c2e-7910-4390-867a-842fc6415365.jpg','44718200-ed12-4539-8602-b526042be8f6.jpg','ebee5b19-2bce-424b-bbd3-ff9cdf4d3574.jpg','3b6bb29f-69d5-4533-a2aa-c7c43381f7db.jpg','bb345b90-7222-4c80-a0e6-f3d9ba6b5924.jpg','7012daa6-efef-4613-96d1-b9e50e45b22a.jpg','ee8a18e9-7689-4098-b887-07732c5a33ce.jpg','1da06c74-a087-462f-88d0-17e1b0657e61.jpg','7d4052d6-bba3-4a8f-b4f3-81f2664b5f21.jpg','9e43ed26-92f7-4892-941b-5890c1d31cfe.jpg','e7a37eeb-1b3a-4df3-ba69-d528c275e057.jpg','428eea10-2d0e-4b2d-a530-3443088f11df.jpg','dfd86256-4c0a-44f1-84cd-a29cfc048cb8.jpg','6dedc136-88ec-4940-b7be-734530dfe381.jpg','7cb53c01-f1f8-4a3d-91de-eef9394b4172.jpg','5d7c7797-6db0-42f8-a790-62fdb4c30a00 (1).jpg','5d7c7797-6db0-42f8-a790-62fdb4c30a00.jpg','88de7819-f89c-49f6-b4f7-27e135d2566d.jpg','890b3bc5-cc92-433e-b727-79dd852d6c91.jpg','download (2).jpg','bb95a134-d1a3-4ac1-bedd-a2de629fc47f.jpg','31ea722c-f96a-4643-89f8-438134d7f09c.jpg','89eca727-0103-42b3-85f7-0d5ef366f3a0.jpg','93a856a3-d8b1-4f07-84b8-69c99b8a31b2.jpg','74b99eb4-6c7e-4983-a14a-387671c88403.jpg','4c898279-3266-4158-b6f7-e428976414ae.jpg','88de7819-f89c-49f6-b4f7-27e135d2566d (1).jpg'];
+const photos = [
+   <img width="1536" height="2048" alt="14  jpg" src="https://github.com/user-attachments/assets/fdae26a3-5d99-4676-8749-5336cbd711e3" />
+
+];
+
 const gallery=document.getElementById('gallery');photos.forEach((p,i)=>{let d=document.createElement('div');d.className='photo';d.innerHTML=`<img src="photos/${encodeURIComponent(p)}" alt="Ojo memory ${i+1}" loading="lazy"><span>Memory #${i+1} 💗</span>`;d.onclick=()=>showPhoto(p,i);gallery.appendChild(d)});
 function go(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
 function showPhoto(p,i){document.getElementById('modalContent').innerHTML=`<div class="lightbox"><img src="photos/${encodeURIComponent(p)}"><h3 style="margin-top:14px">Memory #${i+1} 💗</h3><p style="color:#bbb;margin-top:8px">One more little memory worth keeping.</p></div>`;document.getElementById('modal').classList.add('show')}
@@ -40,4 +45,6 @@ document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal
 </script>
 </body></html>
 
-[index.html](https://github.com/user-attachments/files/32918451/index.html)
+
+
+
